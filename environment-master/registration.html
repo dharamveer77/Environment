@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registraion Form</title>
+    <link rel="stylesheet" href="Registration.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Registraion Form</h1>
+      <a href="index.html"><h1>Home</h1></a>
+    </div>
+    <section id="register">
+      <h2>Register for Tree Plantation</h2>
+      <form id="registrationForm">
+        <label for="username">User Name</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Enter User Name"
+          required
+        />
+
+        <label for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Enter Password"
+          required
+        />
+
+        <label for="teamType">Type of Team</label>
+        <select id="teamType" name="teamType" required>
+          <option value="" disabled selected>Select Type of Team</option>
+          <option value="Govt. College (महाविद्यालय)">
+            Govt. College (महाविद्यालय)
+          </option>
+          <option value="Govt. School (सरकारी विद्यालय)">
+            Govt. School (सरकारी विद्यालय)
+          </option>
+          <option value="Pvt. School (गैरसरकारी विद्यालय)">
+            Pvt. School (गैरसरकारी विद्यालय)
+          </option>
+          <option value="Govt. Department (सरकारी विभाग)">
+            Govt. Department (सरकारी विभाग)
+          </option>
+          <option value="Other Department (अन्य विभाग)">
+            Other Department (अन्य विभाग)
+          </option>
+          <option value="NGO (गैर सरकारी संगठन)">NGO (गैर सरकारी संगठन)</option>
+          <option value="Citizen (नागरिक)">Citizen (नागरिक)</option>
+        </select>
+
+        <label for="areaType">Area Type</label>
+        <select id="areaType" name="areaType" required>
+          <option value="" disabled selected>Area Type</option>
+          <option value="urban">Urban (शहरी)</option>
+          <option value="rural">Rural (ग्रामीण)</option>
+        </select>
+        <label for="village">Enter Village/Ward Name</label>
+        <input
+          type="text"
+          id="village"
+          name="village"
+          placeholder="Enter Village/Ward Name"
+          required
+        />
+
+        <label for="organization"
+          >College/School/NGO/Department/Citizen Name</label
+        >
+        <input
+          type="text"
+          id="organization"
+          name="organization"
+          placeholder="College/School/NGO/Department/Citizen Name"
+          required
+        />
+
+        <button type="submit">Submit</button>
+      </form>
+      <div id="message"></div>
+    </section>
+  </body>
+</html>

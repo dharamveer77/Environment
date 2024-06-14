@@ -1,0 +1,65 @@
+/* Global Styles */
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container Styles */
+.container {
+    background: #fff;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+}
+
+/* Heading Styles */
+h1 {
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Subheading Styles */
+.heading {
+    background-color: #ffc107;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* List Styles */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+li::before {
+    content: "•";
+    color: #ffc107;
+    position: absolute;
+    left: 0;
+    font-size: 22px;
+    line-height: 18px;
+}
