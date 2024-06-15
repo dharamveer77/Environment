@@ -67,7 +67,7 @@ input[type="checkbox"] {
   text-align: center;
   align-items: center;
 }
-.container-1 h2{
+.container-1 h2 {
   font-size: small;
   color: rgb(7, 186, 19);
   text-shadow: 0 5px 5px #74ed76;
@@ -143,7 +143,7 @@ input[type="checkbox"] {
   font-weight: bold;
 }
 
-marquee{
+marquee {
   display: flex;
   margin-left: 150px;
 }
@@ -308,6 +308,9 @@ footer {
   }
   footer h2 {
     font-size: small;
+  }
+  .pt {
+    padding-top: 1px !important;
   }
   .socialIcons {
     display: flex;
