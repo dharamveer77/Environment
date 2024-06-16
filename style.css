@@ -13,6 +13,23 @@ body {
   background-size: cover;
   backdrop-filter: blur(3px);
 }
+
+#loader {
+  position: absolute;
+  margin: auto;
+  top: 300px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 300px;
+  height: 300px;
+}
+#loader img {
+  width: 300px;
+}
+#content {
+  display: none;
+}
 nav {
   display: flex;
   height: 70px;
@@ -218,6 +235,20 @@ footer {
   }
 }
 @media (max-width: 920px) {
+  #loader {
+    position: absolute;
+    margin: auto;
+    top: 225px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 200px;
+    height: 200px;
+  }
+  #loader img {
+    width: 200px;
+  }
+
   nav .menu-btn i {
     display: block;
   }
